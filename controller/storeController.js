@@ -33,7 +33,7 @@ exports.getAll = async(req,res) => {
 
 exports.getOne = async(req,res) => {
   try{
-    const store = await stores.findBypk(req.params.id)
+    const store = await stores.findByPk(req.params.id)
     if(!store){
       return res.status(404).json('store not found')
     }

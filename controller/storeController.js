@@ -47,7 +47,7 @@ exports.getOne = async(req,res) => {
 exports.UpdateUser = async(req,res) => {
 
   try{
-    const store = await stores.findBypk(req.params.id)
+    const store = await stores.findByPk(req.params.id)
     if(!store){
       return res.status(404).json('store not found')
     }
@@ -67,7 +67,7 @@ exports.UpdateUser = async(req,res) => {
 exports.deleteStore = async(req,res) =>{
 
   try{
-    const store = await stores.findBypk(req.params.id)
+    const store = await stores.findByPk(req.params.id)
 
     if(!store){
       return res.status(404).json('store not found')

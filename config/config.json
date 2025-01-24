@@ -1,9 +1,9 @@
 {
   "development": {
-    "username": "root",
-    "password": "Tantoblaze23$",
-    "database": "Ecommerce",
-    "host": "127.0.0.1",
+    "username": "sql10759382",
+    "password": "Q8F2IrIWAX",
+    "database": "sql10759382",
+    "host": "sql10.freesqldatabase.com",
     "dialect": "mysql"
   },
   "test": {
